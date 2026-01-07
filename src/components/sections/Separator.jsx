@@ -3,7 +3,7 @@ import gsap from "gsap";
 import {useGSAP} from "@gsap/react";
 
 import Tinder_Logo from '../../assets/Tinder_Icon.png';
-import Ina_Logo from '../../assets/Ina_Icon.png';
+import Ina_Logo from '../../assets/ina_icon.png';
 
 const MarqueeItem = () => (
     <div className='flex items-center gap-4 md:gap-8 px-4 md:px-8'>
