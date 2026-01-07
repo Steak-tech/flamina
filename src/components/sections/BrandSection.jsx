@@ -27,14 +27,13 @@ export default function BrandSection() {
     }, { scope: sectionRef });
 
     return (
-        <section ref={sectionRef} className="relative w-full mx-auto text-white py-20 lg:py-32 flex flex-col gap-16 lg:gap-24 overflow-hidden">
+        <section ref={sectionRef} className="relative w-full mx-auto text-white py-10 lg:py-16 flex flex-col gap-16 lg:gap-24 overflow-hidden">
 
-            {/* --- HEADLINES --- */}
             <div className='w-full px-4 text-center'>
-                <h2 className="title font-[InstrumentSerif] text-4xl md:text-5xl lg:text-7xl w-full primary-color mb-4">
+                <h2 className="title font-[InstrumentSerif] text-xl md:text-5xl lg:text-5xl w-full primary-color mb-4">
                     UN PARTENARIAT UNIQUE
                 </h2>
-                <h1 className="text-5xl md:text-5xl lg:text-[10rem] leading-none primary-text-gradient font-bold tracking-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-[6rem] leading-none primary-text-gradient font-bold tracking-tight">
                     La collaboration
                 </h1>
             </div>
@@ -43,7 +42,8 @@ export default function BrandSection() {
 
                 <div className='brand-card flex-1 flex flex-col items-center text-center px-6'>
                     <div className='tinder-bg-gradient inline-flex items-center justify-center rounded-3xl p-8 mb-8
-                                    primary-bg-shadow-large lg:shadow-none lg:hover:primary-bg-shadow-large
+                                     shadow-[0_0_70px_#DD4585]
+                                     lg:shadow-none lg:hover:shadow-[0_0_70px_#DD4585]
                                     transition-all duration-300 ease-in-out transform '>
                         <img src={Tinder_Logo} alt="Logo Tinder" className="w-20 h-20 lg:w-28 lg:h-28 object-contain"/>
                     </div>
@@ -59,7 +59,8 @@ export default function BrandSection() {
                 </div>
                 <div className='brand-card flex-1 flex flex-col items-center text-center px-6'>
                     <div className='ina-bg-gradient inline-flex items-center justify-center rounded-3xl p-8 mb-8
-                                    secondary-bg-shadow-large lg:shadow-none lg:hover:secondary-bg-shadow-large
+                                     shadow-[0_0_70px_#028CB5]
+                                     lg:shadow-none lg:hover:shadow-[0_0_70px_#028CB5]
                                     transition-all duration-300 ease-in-out transform'>
                         <img src={Ina_Logo} alt="Logo INA" className="w-20 h-20 lg:w-28 lg:h-28 object-contain"/>
                     </div>

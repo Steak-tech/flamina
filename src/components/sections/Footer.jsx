@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="text-center text-white py-8">
             <hr className="border-white/30 mb-4 " />
-            <img src={Flamina_Logo} alt='Logo Flamina' className="w-1/2 inline-flex" />
+            <img src={Flamina_Logo} alt='Logo Flamina' className="w-1/2 inline-flex lg:w-1/4" />
             <div className="flex justify-center mt-4 mb-2 gap-2">
                 <svg  xmlns="http://www.w3.org/2000/svg" width="48" height="48"
                       fill="currentColor" viewBox="0 0 24 24" className=' rounded-full p-1 hover:text-[#DD4585] transition-colors duration-300'>

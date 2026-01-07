@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
-import HeaderCard from '../../assets/Header_Card.png';
+import HeaderCard from '../../assets/Header_Cards.png';
 import Flamina_Logo from '../../assets/Flamina_Logo_Blanc.png';
 
 export default function Header() {
@@ -50,7 +50,7 @@ export default function Header() {
                         <img
                             src={HeaderCard}
                             alt="Flamina Cards"
-                            className="w-full md:max-w-md lg:w-full lg:max-w-4xl object-contain drop-shadow-2xl transform lg:rotate-6 hover:rotate-0 transition-transform duration-500 ease-out"
+                            className="w-full md:max-w-md lg:w-150 lg:max-w-4xl object-contain lg:mr-5 transform lg:rotate-6 hover:rotate-0 transition-transform duration-500 ease-out"
                         />
                     </div>
                 </div>
