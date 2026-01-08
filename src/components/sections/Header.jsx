@@ -37,9 +37,9 @@ export default function Header() {
                         className="w-40 md:w-56 lg:w-92 inline-block"
                         alt="Logo Flamina"
                     />
-                    <p className="text-2xl md:text-3xl lg:text-5xl font-bold leading-tight text-white max-w-2xl">
-                        <span className="primary-color">Flamina</span>, Lorem ipsum dolor sit amet,
-                        <span className="primary-color"> consectetur</span> adipiscing elit. Integer pharetra.
+                    <p className="text-2xl md:text-3xl lg:text-6xl font-bold leading-tight text-white max-w-2xl text-shadow-lg">
+                        <span className="primary-color">Flamina,</span> swipez moins <br />
+                        <span className="primary-color"> Parlez mieux !</span>
                     </p>
                     <button className="bg-gradient-pink-to-blue px-8 py-4 rounded-full w-full max-w-[300px] lg:w-full primary-bg-shadow font-bold text-xl lg:text-3xl text-white mt-4">
                         Acheter le Deck

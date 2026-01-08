@@ -61,7 +61,7 @@ export default function VideoModal({ data, onClose }) {
 
                 {/* Le Défi (Action ou Vérité) */}
                 <div className="p-8 text-center">
-                    <h3 className="text-tinder-pink font-bold uppercase tracking-widest mb-2">À vous de jouer</h3>
+                    <h3 className="text-[#DD4585] font-bold uppercase tracking-widest mb-2">À vous de jouer</h3>
                     <p className="text-2xl text-white font-bold">{data.challenge}</p>
                 </div>
             </div>
