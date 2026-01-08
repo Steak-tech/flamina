@@ -11,5 +11,11 @@ export const cardsData = {
         videoUrl: "https://www.youtube.com/embed/oRH_1XlY98A?si=CWHTnFJI8nBqGUYJ",
         challenge: "Fait 10 pompes devant ton date"
     },
+    "ancetre-tinder": {
+        title: "L'ancêtre de Tinder : le bip de l'amour",
+        year: "1984",
+        videoUrl: "https://www.youtube.com/embed/t_jU0RCAEGs?si=7TbI6441OADnQmu3",
+        challenge: "Tu en penses quoi de cette technique de drague ?"
+    }
 };
 
